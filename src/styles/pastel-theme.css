@@ -1,0 +1,35 @@
+/* src/styles/pastel-theme.css */
+:root {
+  --primary-color: #a8dadc;    /* Soft blue */
+  --secondary-color: #f1faee;  /* Light neutral */
+  --accent-color: #457b9d;     /* Darker blue for accents */
+  --background-color: #f8f9fa; /* Very light gray */
+}
+
+body {
+  background-color: var(--background-color);
+  color: #333;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Navbar & Button Styling */
+.navbar,
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--accent-color) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-color) !important;
+}
+
+/* Dark mode styling */
+body.dark-mode {
+  background-color: #2d2d2d;
+  color: #eee;
+}
+body.dark-mode .navbar,
+body.dark-mode .btn-primary {
+  background-color: #444;
+  border-color: #666;
+}

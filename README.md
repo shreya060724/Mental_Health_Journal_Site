@@ -48,8 +48,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## **📸 Screenshots**  
 ![image](https://github.com/user-attachments/assets/d3f1780e-652c-4b2e-96ff-e69fcf3efed1)
 ![image](https://github.com/user-attachments/assets/31ee5fbe-d3e9-4a4d-811e-58547b26781b)
-![image](https://github.com/user-attachments/assets/821c69ad-fb38-46e0-a70d-105e1788c373)
-![image](https://github.com/user-attachments/assets/cc9bf09f-ac36-4c1d-b4db-2d17c17cad3a)
+![image](https://github.com/user-attachments/assets/93a05cbf-aaa3-468e-b2ce-8a977acd4181)
+![image](https://github.com/user-attachments/assets/bf27329e-f9db-4527-ae98-f25625b900f8)
 ![image](https://github.com/user-attachments/assets/c4846f75-b932-4132-9cf9-1cb9f513836f)
 ![image](https://github.com/user-attachments/assets/dae4d24a-cf4f-4132-acac-7232705d047a)
 ![image](https://github.com/user-attachments/assets/360528c8-becd-4878-9cae-a746de7c2edb)

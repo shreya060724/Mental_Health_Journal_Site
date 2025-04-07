@@ -1,4 +1,4 @@
-#  🌸SoulSync - Mental Health Journal 
+#  SoulSync - Mental Health Journal 
 
 SoulSync is a web-based mental health journal designed to help users track their emotions, record daily thoughts, and visualize mood trends over time. Built with **React.js**, **Bootstrap**, and **Firebase**, this app offers a simple yet effective way to reflect and maintain emotional well-being.  
 

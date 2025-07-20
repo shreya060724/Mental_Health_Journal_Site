@@ -1,6 +1,5 @@
-// src/components/Dashboard/Dashboard.js
 import React from 'react';
-import { Container, Button, Navbar, Nav, Row, Col } from 'react-bootstrap';
+import { Container, Navbar, Nav, Row, Col } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
 import { auth } from '../../firebase/config';
@@ -103,14 +102,14 @@ const Dashboard = () => {
               text="Flip through your emotional diary - where every day tells a beautiful story!"
               btnText="Calendar"
               linkTo="/calendar"
-              style={{ backgroundColor: 'rgb(244, 223, 148)' }}
+              style={{ backgroundColor: 'rgb(243, 175, 175)' }}
             />
           </Col>
           <Col xs={12} md={4} className="text-center">
-            <Cards title="New Entry 📝" text="Pour your heart out today, and let tomorrow smile at your memories!" btnText="New Entry" linkTo="/new-entry" style={{ backgroundColor: ' #AFE1AF' }} />
+            <Cards title="New Entry 📝" text="Pour your heart out today, and let tomorrow smile at your memories!" btnText="New Entry" linkTo="/new-entry" style={{ backgroundColor: ' rgb(243, 175, 175)' }} />
           </Col>
           <Col xs={12} md={4} className="text-center">
-            <Cards title="Analytics 📉" text="See your mood's journey unfold like a colorful rollercoaster ride - highs, lows, and all the feels!" btnText="Analytics" linkTo="/analytics" style={{ backgroundColor: ' #FAA0A0' }} />
+            <Cards title="Analytics 📉" text="See your mood's journey unfold like a colorful rollercoaster ride - highs, lows, and all the feels!" btnText="Analytics" linkTo="/analytics" style={{ backgroundColor: ' rgb(243, 175, 175)' }} />
           </Col>
         </Row>
         <Row className="justify-content-between mt-5">

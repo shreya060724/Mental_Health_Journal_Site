@@ -1,14 +1,13 @@
-// src/components/Journal/NewEntry.js
 import React, { useState } from 'react';
 import { Container, Form, Button, Alert } from 'react-bootstrap';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import { db, auth } from '../../firebase/config';
 import { useNavigate } from 'react-router-dom';
-import { FaArrowLeft } from 'react-icons/fa'; // Importing arrow icon
+import { FaArrowLeft } from 'react-icons/fa'; 
 
 const NewEntry = () => {
   const [entry, setEntry] = useState('');
-  const [mood, setMood] = useState(3); // Default mood rating (1-5)
+  const [mood, setMood] = useState(3); 
   const [tags, setTags] = useState('');
   const [message, setMessage] = useState('');
   const navigate = useNavigate();
@@ -25,7 +24,7 @@ const NewEntry = () => {
         createdAt: serverTimestamp(),
       });
       setMessage('Your entry has been saved!');
-      setTimeout(() => navigate('/dashboard'), 1500);
+      setTimeout(() => navigate('/dashboard'), 1000);
     } catch (error) {
       setMessage('Error saving entry. Please try again.');
     }
@@ -81,7 +80,7 @@ const NewEntry = () => {
             <Form.Label>Mood Rating (1-5)</Form.Label>
             <Form.Range
               min="1"
-              max="5"
+              max="6"
               value={mood}
               onChange={(e) => setMood(e.target.value)}
             />
